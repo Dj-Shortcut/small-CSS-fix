@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WordPress Elementor Heading Demo</title>
+<style>
+/* CSS voor WordPress plugin (Elementor) om lange woorden in headings op mobiel af te breken */
+.selector {
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+/* Extra responsive tip: font-size iets kleiner op mobiel */
+@media (max-width: 767px) {
+  .selector {
+    font-size: 32px; /* pas aan naar wens */
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="elementor-widget elementor-widget-heading selector">
+  <h1 class="elementor-heading-title elementor-size-default">
+    ondernemers.
+  </h1>
+</div>
+
+<p>Dit is een demo van hoe lange woorden in een WordPress Elementor heading correct afgebroken worden op mobiel.</p>
+
+</body>
+</html>
